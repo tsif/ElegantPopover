@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/prasad1120/ElegantPopover.git", :tag => "#{spec.version}" }
   spec.source_files  = "ElegantPopover/**/*.{swift}"
   spec.requires_arc = true
-  spec.dependency 'ClippingBezier', '1.0.6'
+  spec.dependency 'ClippingBezier', '1.2.0'
   spec.swift_version = "4.0"
 
 end
